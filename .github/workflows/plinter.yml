@@ -1,4 +1,4 @@
-name: plint
+name: plinter
 
 on: [push]
 
@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [2.7, 3.5, 3.6, 3.7, 3.8]
+      # disabling versions 2.7, 3.5, 3.6, 3.7 for now
+        python-version: [3.8]
 
     steps:
       - uses: actions/checkout@v2
@@ -22,5 +23,7 @@ jobs:
           pip install flake8
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Lint with flake8
-        run: |
-          flake8 .
+        run:
+        # run flake8 in current rep, ignore: 
+        # E501 line too long ( > 80 characters)
+          flake8 . --ignore=E501
