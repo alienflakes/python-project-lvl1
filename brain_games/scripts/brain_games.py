@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exectutable module for brain-games."""
+"""Script for welcoming."""
 
 from brain_games.cli import welcome_user
 

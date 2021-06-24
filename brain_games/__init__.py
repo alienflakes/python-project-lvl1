@@ -1,1 +1,1 @@
-"""Init file for cli.py."""
+"""Init file for game packages."""

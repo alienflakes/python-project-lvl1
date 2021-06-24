@@ -10,3 +10,8 @@ def welcome_user():
     name = prompt.string('Hey there! Wait! What was your name again? ')
 
     print('Right.. {0}...'.format(name))
+
+    return name
+
+
+PLAYER_NAME = welcome_user()
