@@ -1,4 +1,5 @@
-"""CLI module for brain-games."""
+#!/usr/bin/env python3
+"""Script for welcoming and getting players name."""
 
 import prompt
 
@@ -14,4 +15,4 @@ def welcome_user():
     return name
 
 
-PLAYER_NAME = welcome_user()
+player_name = welcome_user()

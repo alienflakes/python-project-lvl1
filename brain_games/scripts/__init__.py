@@ -1,1 +1,1 @@
-"""Init file for brain_games.py."""
+"""Init file for brain_games/scripts."""

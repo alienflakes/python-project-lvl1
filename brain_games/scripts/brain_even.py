@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """Script for the first Brain Game: Is Even."""
 
-from brain_games.is_even import is_even_game
+from brain_games.games.game_flow import build_game
+from brain_games.games.is_even_game import IsEvenLogic
 
+
+def start_is_even():
+    """Start Is Even brain game."""
+
+    return build_game(IsEvenLogic)
 
 def main():
-    """Start ffirst brain game."""
-
-    print('Type "yes" if the number is even, otherwise type "no".\
-         \nYou need to get 3 correct answers in a row.')
-    is_even_game()
+    return start_is_even()
 
 
 if __name__ == '__main__':

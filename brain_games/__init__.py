@@ -1,1 +1,1 @@
-"""Init file for game packages."""
+"""Init file for game packages in prima/brain_games."""
