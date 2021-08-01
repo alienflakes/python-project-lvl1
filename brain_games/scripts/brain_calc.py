@@ -10,6 +10,7 @@ def start_calc():
 
     return build_game(CalcGameLogic)
 
+
 def main():
     return start_calc()
 

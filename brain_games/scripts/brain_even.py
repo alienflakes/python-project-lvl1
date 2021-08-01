@@ -10,6 +10,7 @@ def start_is_even():
 
     return build_game(IsEvenLogic)
 
+
 def main():
     return start_is_even()
 

@@ -5,7 +5,6 @@ from brain_games.scripts.brain_even import start_is_even
 from brain_games.scripts.brain_calc import start_calc
 
 
-
 def main():
     """Host Brain Games."""
 
