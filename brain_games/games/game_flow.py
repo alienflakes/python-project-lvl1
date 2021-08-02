@@ -15,12 +15,12 @@ def build_game(GameLogic):
     while correct_count < 3:
 
         number_01 = randint(0, 100)
-        number_02 = randint(0, 10)
-        num_operation = randint(0, 2)
+        number_02 = randint(0, 20)
+        number_03 = randint(0, 20)
 
-        correct_answer = GameLogic.get_answer(number_01, number_02, num_operation)
+        correct_answer = GameLogic.get_answer(number_01, number_02, number_03)
 
-        question = '{0}\nYour answer: '.format(GameLogic.get_question(number_01, number_02, num_operation))
+        question = '{0}\nYour answer: '.format(GameLogic.get_question(number_01, number_02, number_03))
         user_answer = prompt.string(question)
 
         if correct_answer == user_answer:

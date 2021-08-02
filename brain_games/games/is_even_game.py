@@ -6,7 +6,7 @@ class IsEvenLogic:
 
     intro = 'Type "yes" if the number is even, otherwise type "no".'
 
-    def get_answer(num, num_02=0, num_op=0):
+    def get_answer(num, num_02=0, num_03=0):
         """Get the Answer for Is Even game logic."""
 
         if num % 2 == 0:
@@ -14,7 +14,7 @@ class IsEvenLogic:
         else:
             return 'no'
 
-    def get_question(num, num_02=0, num_op=0):
+    def get_question(num, num_02=0, num_03=0):
         """Get the Question for Is Even game logic."""
 
         return 'Is {0} even?'.format(num)
