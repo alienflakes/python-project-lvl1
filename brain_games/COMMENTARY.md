@@ -26,6 +26,8 @@ Fourth one is the Progression Game. Find the missing
 number in an arithmetic progression and that would be
 the answer.
 
+The fifth, final game is Prime Game, in which you have
+to find out whether the number is prime or not.
 
 All of primarely used numbers (and Calc operations) are randomly generated.
 number_01 has a range of 0 to 100.
@@ -60,8 +62,7 @@ The Games have a similar logic that goes like this:
     -repeat 1-4.1;
 -start the third game:
     -repeat 1-4.1;
--start the fourth game:
-    -repeat 1-4.1;
+-etc etc ...
 -congratulate on the win.
 
 So it was convinient to make a separate game-flow module (game_flow.py)
@@ -77,4 +78,4 @@ the classes would make them repeat on each game round.
 There was another solution to this, but for now it's easier
 to bring up the randomizer directly in the game flow cycle.
 
-...i'll finish this later...
+I'll probably add things up later, this is the base for now! (:

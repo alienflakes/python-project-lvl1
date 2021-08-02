@@ -1,7 +1,7 @@
 """Game Logic for Is Even Brain Game."""
 
 
-class IsEvenLogic:
+class PrimeLogic:
     """Class for Is Even Game Logic to use in game_flow.py."""
 
     intro = 'Type "yes" if the number is even, otherwise type "no".'

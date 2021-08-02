@@ -2,13 +2,13 @@
 """Script for the first Brain Game: Is Even."""
 
 from brain_games.games.game_flow import build_game
-from brain_games.games.is_even_game import IsEvenLogic
+from brain_games.games.is_even_game import PrimeLogic
 
 
 def start_is_even():
     """Start Is Even brain game."""
 
-    return build_game(IsEvenLogic)
+    return build_game(PrimeLogic)
 
 
 def main():
