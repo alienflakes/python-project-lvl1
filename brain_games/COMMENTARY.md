@@ -22,6 +22,10 @@ math expression (could be addition, subtraction or division).
 Third game - GCD Game - puts the greatest common divisor
 of the pair of suggested numbers as an answer.
 
+Fourth one is the Progression Game. Find the missing
+number in an arithmetic progression and that would be
+the answer.
+
 
 All of primarely used numbers (and Calc operations) are randomly generated.
 number_01 has a range of 0 to 100.
@@ -32,11 +36,16 @@ number_03 has a range of 0 to 20
 the Games being a little easier with smaller numbers,
 but ranges can be changed anytime in the game_flow.py's cycle,
 where they are originally generated.
+
 Also, in GCD Game, where I use number_01 as a base to create 
 the nums for finding their GCD, it's cut down by dividing (//)
 it by 10, bc using (0, 100) as a base makes these tasks
 just a liiitle too difficult. This can be fixed too if
 any wandering mathematician stumbles across this project.
+
+And in the Progression Game number_01 and number_03 are
+also modified to fit into the game rules and avoid
+using numbers that are too big.
 
 
 The Games have a similar logic that goes like this:
@@ -51,14 +60,16 @@ The Games have a similar logic that goes like this:
     -repeat 1-4.1;
 -start the third game:
     -repeat 1-4.1;
+-start the fourth game:
+    -repeat 1-4.1;
 -congratulate on the win.
 
-So it was convinient to make a separate game flow module (game_flow.py)
+So it was convinient to make a separate game-flow module (game_flow.py)
 that wraps any game into it's useful state (dependent on it's rules)
 that can be later used from the scripts that would build the whole Project.
 
-Each games' logic is sorted into custom classes and then given to the
-game flow module to build them - the flow and game modules
+Each games' logic is fit into custom classes and then given to the
+game-flow module to build them - the flow and game modules
 lay in the brain_games/games dir.
 
 Numbers are generated in the game_flow.py cycle, bc generating them inside

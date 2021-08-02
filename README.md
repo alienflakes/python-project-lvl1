@@ -14,3 +14,5 @@
 #### Step06: [Second Brain Game asciinema](https://asciinema.org/a/65ANbJ1KM0jEsZ4dhzaxtIWOM "it's working!!!")
 
 #### Step07: [Third Brain Game asciinema](https://asciinema.org/a/wDVdDoAagtlljHVS1sd2h9M4d "math is genius...")
+
+#### Step08: [Fourth Brain Game asciinema](https://asciinema.org/a/34YGgVUNGsTWbjeqFmBSdk3FD "who is reading these comments..?")
