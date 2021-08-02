@@ -12,3 +12,5 @@
 #### Step05: [First Brain Game asciinema](https://asciinema.org/a/4qZsm58zOP90RMm4cUh9KLwTW "wish me luck")
 
 #### Step06: [Second Brain Game asciinema](https://asciinema.org/a/65ANbJ1KM0jEsZ4dhzaxtIWOM "it's working!!!")
+
+#### Step07: [Third Brain Game asciinema](https://asciinema.org/a/wDVdDoAagtlljHVS1sd2h9M4d "math is genius...")
