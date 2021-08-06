@@ -1,18 +1,28 @@
 #!/usr/bin/env python3
 """Script for the fourth Brain Game: Progression Game."""
 
-from brain_games.games.game_flow import build_game
-from brain_games.games.progression_game import ProgressionLogic
+from brain_games.game_flow import build_game
+import brain_games.games.progression
+from brain_games.scripts.welcome import welcome_user
 
 
-def start_progression():
-    """Start Progression brain game."""
-
-    return build_game(ProgressionLogic)
+def get_result():
+    return build_game(brain_games.games.progression)
 
 
 def main():
-    return start_progression()
+
+    player_name = welcome_user()
+
+    fail_message = "Let's try again, {0}!".format(player_name)
+    victory_message = 'Congratulations, {0}!'.format(player_name)
+
+    if build_game(brain_games.games.progression):
+        print(victory_message)
+        return True
+    else:
+        print(fail_message)
+        return False
 
 
 if __name__ == '__main__':

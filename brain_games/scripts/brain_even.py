@@ -1,18 +1,29 @@
 #!/usr/bin/env python3
 """Script for the first Brain Game: Is Even."""
 
-from brain_games.games.game_flow import build_game
-from brain_games.games.is_even_game import PrimeLogic
+from brain_games.game_flow import build_game
+import brain_games.games.even
+from brain_games.scripts.welcome import welcome_user
 
 
-def start_is_even():
-    """Start Is Even brain game."""
+def get_result():
 
-    return build_game(PrimeLogic)
+    return build_game(brain_games.games.even)
 
 
 def main():
-    return start_is_even()
+
+    player_name = welcome_user()
+
+    fail_message = "Let's try again, {0}!".format(player_name)
+    victory_message = 'Congratulations, {0}!'.format(player_name)
+
+    if build_game(brain_games.games.even):
+        print(victory_message)
+        return True
+    else:
+        print(fail_message)
+        return False
 
 
 if __name__ == '__main__':

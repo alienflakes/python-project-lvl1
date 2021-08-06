@@ -1,28 +1,31 @@
 #!/usr/bin/env python3
 """Hosting the whole Brain Games."""
 
-from brain_games.scripts.brain_prime import start_prime
-from brain_games.scripts.brain_progression import start_progression
-from brain_games.scripts.brain_gcd import start_GCD
-from brain_games.scripts.brain_even import start_is_even
-from brain_games.scripts.brain_calc import start_calc
+import brain_games.scripts.brain_even
+import brain_games.scripts.brain_calc
+import brain_games.scripts.brain_gcd
+import brain_games.scripts.brain_progression
+import brain_games.scripts.brain_prime
+from brain_games.scripts.welcome import welcome_user
 
 
 def main():
     """Host Brain Games."""
 
-    fail_message = 'Uh oh!! You failed this game! Square up and return later.'
-    victory_message = 'Wow, you\'ve really outdone yourself. The victory is yours, so is a PhD in maths.'
+    player_name = welcome_user()
 
-    if start_is_even() is True:
+    fail_message = "Let's try again, {0}!".format(player_name)
+    victory_message = 'Congratulations, {0}!'.format(player_name)
 
-        if start_calc() is True:
+    if brain_games.scripts.brain_even.get_result() is True:
 
-            if start_GCD() is True:
+        if brain_games.scripts.brain_calc.get_result() is True:
 
-                if start_progression() is True:
+            if brain_games.scripts.brain_gcd.get_result() is True:
 
-                    if start_prime() is True:
+                if brain_games.scripts.brain_progression.get_result() is True:
+
+                    if brain_games.scripts.brain_prime.get_result() is True:
 
                         print(victory_message)
                         return True
