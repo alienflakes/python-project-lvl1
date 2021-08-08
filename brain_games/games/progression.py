@@ -32,7 +32,7 @@ def get_logic():
         current_num += step
         i += 1
 
-    question_range += ' ..'
+    question_range += '..'
     i += 1
     current_num += step
 
