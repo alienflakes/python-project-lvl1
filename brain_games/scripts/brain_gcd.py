@@ -3,7 +3,7 @@
 
 from brain_games.game_flow import build_game
 import brain_games.games.gcd
-from brain_games.scripts.welcome import welcome_user
+import brain_games.scripts.welcome
 
 
 def get_result():
@@ -12,7 +12,7 @@ def get_result():
 
 def main():
 
-    player_name = welcome_user()
+    player_name = brain_games.scripts.welcome.main()
 
     fail_message = "Let's try again, {0}!".format(player_name)
     victory_message = 'Congratulations, {0}!'.format(player_name)
