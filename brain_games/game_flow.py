@@ -4,7 +4,7 @@ import prompt
 
 
 def build_game(game_type):
-    """Host any Brain Game (defined by Game Logic of choice) and return True (victory) or False (fail)."""
+    """Host any Brain Game and return True (victory) or False (fail)."""
 
     print(game_type.intro)
 
@@ -24,7 +24,8 @@ def build_game(game_type):
             print("Correct!")
 
         else:
-            print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(user_answer, correct_answer))
+            print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(
+                user_answer, correct_answer))
             return False
 
     return True
