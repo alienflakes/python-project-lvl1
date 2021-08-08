@@ -17,7 +17,7 @@ def build_game(game_type):
         correct_answer, custom_question = game_type.get_logic()
 
         whole_question = 'Question: {0}\nYour answer: '.format(custom_question)
-        user_answer = prompt.string(whole_question)
+        user_answer = prompt.string(whole_question, empty=True)
 
         if correct_answer == user_answer:
             correct_count += 1
