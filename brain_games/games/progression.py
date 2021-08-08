@@ -28,7 +28,7 @@ def get_logic():
 
     while i < missing_spot:
 
-        question_range += ' ' + str(current_num)
+        question_range += str(current_num) + ' '
         current_num += step
         i += 1
 
