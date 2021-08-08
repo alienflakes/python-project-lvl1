@@ -4,7 +4,7 @@
 import prompt
 
 
-def welcome_get_name():
+def main():
     """Display welcoming message and get a name."""
 
     print('Welcome to the Brain Games!')
@@ -14,11 +14,6 @@ def welcome_get_name():
     print('Hello, {0}!'.format(name))
 
     return name
-
-
-def main():
-
-    welcome_get_name()
 
 
 if __name__ == '__main__':
