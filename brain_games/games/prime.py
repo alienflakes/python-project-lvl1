@@ -28,7 +28,7 @@ def get_answer_and_question():
 
     question = '{0}'.format(num_to_check)
 
-    if is_prime() is True:
+    if is_prime(num_to_check) is True:
         return 'yes', question
     else:
         return 'no', question
