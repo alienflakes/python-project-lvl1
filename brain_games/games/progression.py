@@ -7,7 +7,7 @@ INTRO = 'What number is missing in the progression?'
 
 
 def make_progression(step, starting_num, missing_spot, progression_length):
-    """Method for creating a progression string with a missed spot and its answer."""
+    """Method for making a progression string and its answer."""
 
     current_spot = 0
     current_num = starting_num
@@ -24,7 +24,7 @@ def make_progression(step, starting_num, missing_spot, progression_length):
         current_num += step
         current_spot += 1
 
-    return missing_num, progression_str
+    return missing_num, str.strip(progression_str)
 
 
 def get_answer_and_question():
