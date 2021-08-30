@@ -1,12 +1,18 @@
 """Flow Logic for Brain Games."""
 
 import prompt
+import brain_games.scripts.welcome
 
 
-def build_game(game_type):
-    """Host any Brain Game and return True (victory) or False (fail)."""
+def game_core(game):
+    """Host a Brain Game."""
 
-    print(game_type.intro)
+    player_name = brain_games.scripts.welcome.main()
+
+    fail_message = "Let's try again, {0}!".format(player_name)
+    victory_message = 'Congratulations, {0}!'.format(player_name)
+
+    print(game.INTRO)
 
     correct_count = 0
 
@@ -14,7 +20,7 @@ def build_game(game_type):
 
     while correct_count < rounds_count:
 
-        correct_answer, custom_question = game_type.get_logic()
+        correct_answer, custom_question = game.get_answer_and_question()
 
         whole_question = 'Question: {0}\nYour answer: '.format(custom_question)
         user_answer = prompt.string(whole_question, empty=True)
@@ -26,6 +32,8 @@ def build_game(game_type):
         else:
             print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(
                 user_answer, correct_answer))
-            return False
+            print(fail_message)
+            break
 
-    return True
+    if correct_count == rounds_count:
+        print(victory_message)

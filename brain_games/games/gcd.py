@@ -6,19 +6,19 @@ from random import randint
 def get_gcd(first_number, second_number):
     """Find the greatest common divisor of the numbers."""
 
-    t = 0
+    temporary_num_spot = 0
     while second_number != 0:
-        t = second_number
+        temporary_num_spot = second_number
         second_number = first_number % second_number
-        first_number = t
+        first_number = temporary_num_spot
 
     return first_number
 
 
-intro = 'Find the greatest common divisor of given numbers.'
+INTRO = 'Find the greatest common divisor of given numbers.'
 
 
-def get_logic():
+def get_answer_and_question():
     """Get the answer and the question for GCD game logic."""
 
     num_01 = randint(0, 10)

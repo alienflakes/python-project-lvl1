@@ -3,26 +3,32 @@
 from random import randint
 
 
-intro = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+INTRO = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_logic():
+def is_prime(this_num):
+    """Checks whether the num is prime or not."""
+
+    if this_num > 1:
+
+        for i in range(2, int(this_num / 2) + 1):
+
+            if (this_num % i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return False
+
+
+def get_answer_and_question():
     """Get the answer and the question for Prime game logic."""
 
-    num = randint(0, 300)
+    num_to_check = randint(0, 300)
 
-    question = '{0}'.format(num)
+    question = '{0}'.format(num_to_check)
 
-    if num > 1:
-
-        for i in range(2, int(num / 2) + 1):
-
-            if (num % i) == 0:
-                answer = 'no'
-                break
-        else:
-            answer = 'yes'
+    if is_prime() is True:
+        return 'yes', question
     else:
-        answer = 'no'
-
-    return answer, question
+        return 'no', question

@@ -23,16 +23,14 @@ that builds up the games based on their rules described in the modules.
 #### Flake8 linter status:
 [![plint](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml/badge.svg)](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml)
 
-#### Hexlet Project01
+### Hexlet Brain Games project demonstration:
 
-#### [Even Brain Game asciinema](https://asciinema.org/a/O25wfnBckvFYsUqBAoryD6l82)
+#### Even Brain Game asciinema: <https://asciinema.org/a/O25wfnBckvFYsUqBAoryD6l82>
 
-#### [Calc Brain Game asciinema](https://asciinema.org/a/vSiwNiKkxyiYTzUoIhd1s0yQe)
+#### Calc Brain Game asciinema: <https://asciinema.org/a/vSiwNiKkxyiYTzUoIhd1s0yQe>
 
-#### [GCD Brain Game asciinema](https://asciinema.org/a/xgcy49IFyfAWqEssWxLclwdDM)
+#### GCD Brain Game asciinema: <https://asciinema.org/a/xgcy49IFyfAWqEssWxLclwdDM>
 
-#### [Progression Brain Game asciinema](https://asciinema.org/a/cWUBs2IDClAjcBAcR2J603qtM)
+#### Progression Brain Game asciinema: <https://asciinema.org/a/cWUBs2IDClAjcBAcR2J603qtM>
 
-#### [Prime Brain Game asciinema](https://asciinema.org/a/eJqvWnQnkKdbD9K7BFieG00lh)
-
-#### [Brain Games (full) asciinema](https://asciinema.org/a/6ru7ExkAJ1l8dvUYV0JhoJxlL)
+#### Prime Brain Game asciinema: <https://asciinema.org/a/eJqvWnQnkKdbD9K7BFieG00lh>
