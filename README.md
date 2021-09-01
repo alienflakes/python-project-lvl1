@@ -25,12 +25,17 @@ that builds up the games based on their rules described in the modules.
 
 ### Hexlet Brain Games project demonstration:
 
-#### Even Brain Game asciinema: <https://asciinema.org/a/O25wfnBckvFYsUqBAoryD6l82>
+#### Even Brain Game asciinema: 
+[![asciicast](https://asciinema.org/a/pMKkprWBrdJVniMqbzaZHzzqK.svg)](https://asciinema.org/a/pMKkprWBrdJVniMqbzaZHzzqK)
 
-#### Calc Brain Game asciinema: <https://asciinema.org/a/vSiwNiKkxyiYTzUoIhd1s0yQe>
+#### Calc Brain Game asciinema: 
+[![asciicast](https://asciinema.org/a/DPeadbB6VcuAadav8NLa4annV.svg)](https://asciinema.org/a/DPeadbB6VcuAadav8NLa4annV)
 
-#### GCD Brain Game asciinema: <https://asciinema.org/a/xgcy49IFyfAWqEssWxLclwdDM>
+#### GCD Brain Game asciinema: 
+[![asciicast](https://asciinema.org/a/Y4dXKodpBLEZoI6V2saFP03nS.svg)](https://asciinema.org/a/Y4dXKodpBLEZoI6V2saFP03nS)
 
-#### Progression Brain Game asciinema: <https://asciinema.org/a/cWUBs2IDClAjcBAcR2J603qtM>
+#### Progression Brain Game asciinema: 
+[![asciicast](https://asciinema.org/a/kL2d6IqGaa7dO1cgeEP2mZnK7.svg)](https://asciinema.org/a/kL2d6IqGaa7dO1cgeEP2mZnK7)
 
-#### Prime Brain Game asciinema: <https://asciinema.org/a/eJqvWnQnkKdbD9K7BFieG00lh>
+#### Prime Brain Game asciinema: 
+[![asciicast](https://asciinema.org/a/X24X5YRrsPjrXifhWgMDquuw5.svg)](https://asciinema.org/a/X24X5YRrsPjrXifhWgMDquuw5)
