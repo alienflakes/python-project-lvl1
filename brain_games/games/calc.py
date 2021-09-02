@@ -2,11 +2,12 @@
 
 from random import randint, choice
 
+
 INTRO = 'What is the result of the expression?'
 
 
 def get_answer_and_question():
-    """Get the answer and the question for Calc Game logic."""
+    """Get the answer (result) and the question (expression)."""
 
     num_01 = randint(0, 100)
     num_02 = randint(0, 10)

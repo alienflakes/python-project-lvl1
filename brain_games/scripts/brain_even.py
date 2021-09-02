@@ -3,7 +3,6 @@
 
 from brain_games.game_flow import game_core
 import brain_games.games.even
-import brain_games.scripts.welcome
 
 
 def main():

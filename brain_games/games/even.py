@@ -7,6 +7,7 @@ INTRO = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(this_num):
+    """Checks if this_num is even or not."""
 
     if this_num % 2 == 0:
         return True
@@ -21,7 +22,7 @@ def get_answer_and_question():
 
     question = str(num_to_check)
 
-    if is_even(num_to_check) is True:
+    if is_even(num_to_check):
         return 'yes', question
     else:
         return 'no', question

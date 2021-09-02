@@ -22,7 +22,7 @@ def is_prime(this_num):
 
 
 def get_answer_and_question():
-    """Get the answer and the question for Prime game logic."""
+    """Get the answer (prime or not) and the question (num_to_check)."""
 
     num_to_check = randint(0, 300)
 

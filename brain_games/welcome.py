@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Script for welcoming and getting players name."""
+"""Welcomes and gets player's name."""
 
 import prompt
 
 
-def main():
+def welcome_get_name():
     """Display welcoming message and get a name."""
 
     print('Welcome to the Brain Games!')
@@ -14,7 +14,3 @@ def main():
     print('Hello, {0}!'.format(name))
 
     return name
-
-
-if __name__ == '__main__':
-    main()
