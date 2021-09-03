@@ -5,7 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 #### Flake8 linter status:
-[![plint](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml/badge.svg)](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml)
+[![aliens_flake8_linter](https://github.com/alienflakes/python-project-lvl1/actions/workflows/aliens_flake8_linter.yml/badge.svg)](https://github.com/alienflakes/python-project-lvl1/actions/workflows/aliens_flake8_linter.yml)
 
 
 ### Brain Games: [the first project](https://ru.hexlet.io/programs/python/projects/49) for the [Hexlet Python course](https://ru.hexlet.io/programs/python) 
