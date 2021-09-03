@@ -1,4 +1,4 @@
-name: plinter
+name: aliens_flake8_linter
 
 on: [push]
 

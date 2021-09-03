@@ -1,3 +1,13 @@
+#### Hexlet tests and linter status:
+[![Actions Status](https://github.com/alienflakes/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/alienflakes/python-project-lvl1/actions)
+
+#### CodeClimate Maintainability:
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+
+#### Flake8 linter status:
+[![plint](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml/badge.svg)](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml)
+
+
 ### Brain Games: [the first project](https://ru.hexlet.io/programs/python/projects/49) for the [Hexlet Python course](https://ru.hexlet.io/programs/python) 
 
 **The Brain Games project** is a Terminal trinket
@@ -14,14 +24,6 @@ that builds up the games based on their rules described in the modules.
 
 *All of this is mostly me learning to wrap up projects nicely and getting into coding best practices.*
 
-#### Hexlet tests and linter status:
-[![Actions Status](https://github.com/alienflakes/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/alienflakes/python-project-lvl1/actions)
-
-#### CodeClimate Maintainability:
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-
-#### Flake8 linter status:
-[![plint](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml/badge.svg)](https://github.com/alienflakes/python-project-lvl1/actions/workflows/plinter.yml)
 
 ### Hexlet Brain Games project demonstration:
 
