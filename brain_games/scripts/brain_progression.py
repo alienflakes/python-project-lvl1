@@ -2,12 +2,12 @@
 """Script for the fourth Brain Game: Progression Game."""
 
 from brain_games.game_flow import game_core
-import brain_games.games.progression
+from brain_games.games import progression
 
 
 def main():
 
-    game_core(brain_games.games.progression)
+    game_core(progression)
 
 
 if __name__ == '__main__':

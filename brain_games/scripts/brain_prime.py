@@ -2,12 +2,12 @@
 """Script for the fifth Brain Game: Prime."""
 
 from brain_games.game_flow import game_core
-import brain_games.games.prime
+from brain_games.games import prime
 
 
 def main():
 
-    game_core(brain_games.games.prime)
+    game_core(prime)
 
 
 if __name__ == '__main__':

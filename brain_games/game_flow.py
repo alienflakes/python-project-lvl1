@@ -36,9 +36,7 @@ Correct answer was '{1}'.".format(user_answer, correct_answer)
 
             fail_message = "Let's try again, {0}!".format(player_name)
             print(fail_message)
-            break
+            return None
 
-    if correct_count == rounds_count:
-
-        victory_message = 'Congratulations, {0}!'.format(player_name)
-        print(victory_message)
+    victory_message = 'Congratulations, {0}!'.format(player_name)
+    print(victory_message)

@@ -2,12 +2,12 @@
 """Script for the second Brain Game: Calc Game."""
 
 from brain_games.game_flow import game_core
-import brain_games.games.calc
+from brain_games.games import calc
 
 
 def main():
 
-    game_core(brain_games.games.calc)
+    game_core(calc)
 
 
 if __name__ == '__main__':
